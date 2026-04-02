@@ -228,14 +228,14 @@ function App() {
           />
         </section>
 
-        <footer className="animate-enter-5 border-t border-slate-200/80 pt-4 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
-          Website created by{' '}
-          <span className="font-medium text-slate-700 dark:text-slate-200">
-            Siddhant Yojit
-          </span>
-          <span className="mx-2 inline-block align-middle text-slate-300 dark:text-slate-600">
-            ·
-          </span>
+        <footer className="animate-enter-5 border-t border-slate-200/80 pt-4 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
+          <div className="flex items-center justify-center gap-3 text-center">
+            <span>
+              Website created by{' '}
+              <span className="font-medium text-slate-700 dark:text-slate-200">
+                Siddhant Yojit
+              </span>
+            </span>
           <a
             href="https://www.linkedin.com/in/siddhant-yojit-ab805327b/"
             target="_blank"
@@ -251,6 +251,7 @@ function App() {
               <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3C4.14 3 3.25 3.9 3.25 5c0 1.1.89 2 2 2 1.1 0 2-.9 2-2 0-1.1-.9-2-2-2ZM20.75 13.05c0-3.47-1.85-5.08-4.32-5.08-1.99 0-2.88 1.09-3.38 1.86V8.5H9.69c.04.88 0 11.5 0 11.5h3.36v-6.42c0-.34.03-.68.12-.92.27-.68.88-1.38 1.9-1.38 1.34 0 1.88 1.03 1.88 2.54V20H20.3v-6.95c0-.37-.01-.74-.05-1Z" />
             </svg>
           </a>
+          </div>
         </footer>
       </div>
     </main>
