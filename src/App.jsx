@@ -227,6 +227,22 @@ function App() {
             }}
           />
         </section>
+
+        <footer className="animate-enter-5 border-t border-slate-200/80 pt-4 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
+          Website created by{' '}
+          <span className="font-medium text-slate-700 dark:text-slate-200">
+            Siddhant Yojit
+          </span>{' '}
+          ·{' '}
+          <a
+            href="https://www.linkedin.com/in/siddhant-yojit-ab805327b/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium text-blue-600 underline-offset-4 transition hover:text-blue-500 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+          >
+            LinkedIn Profile
+          </a>
+        </footer>
       </div>
     </main>
   )
