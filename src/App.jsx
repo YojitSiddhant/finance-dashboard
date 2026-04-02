@@ -232,15 +232,24 @@ function App() {
           Website created by{' '}
           <span className="font-medium text-slate-700 dark:text-slate-200">
             Siddhant Yojit
-          </span>{' '}
-          ·{' '}
+          </span>
+          <span className="mx-2 inline-block align-middle text-slate-300 dark:text-slate-600">
+            ·
+          </span>
           <a
             href="https://www.linkedin.com/in/siddhant-yojit-ab805327b/"
             target="_blank"
             rel="noreferrer"
-            className="font-medium text-blue-600 underline-offset-4 transition hover:text-blue-500 hover:underline dark:text-blue-400 dark:hover:text-blue-300"
+            aria-label="Siddhant Yojit LinkedIn Profile"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-[#0A66C2] shadow-sm transition hover:-translate-y-0.5 hover:border-blue-200 hover:bg-blue-50 hover:shadow-md dark:border-slate-700 dark:bg-slate-900 dark:text-[#6fb6ff] dark:hover:border-blue-500/40 dark:hover:bg-slate-800"
           >
-            LinkedIn Profile
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              className="h-5 w-5 fill-current"
+            >
+              <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3C4.14 3 3.25 3.9 3.25 5c0 1.1.89 2 2 2 1.1 0 2-.9 2-2 0-1.1-.9-2-2-2ZM20.75 13.05c0-3.47-1.85-5.08-4.32-5.08-1.99 0-2.88 1.09-3.38 1.86V8.5H9.69c.04.88 0 11.5 0 11.5h3.36v-6.42c0-.34.03-.68.12-.92.27-.68.88-1.38 1.9-1.38 1.34 0 1.88 1.03 1.88 2.54V20H20.3v-6.95c0-.37-.01-.74-.05-1Z" />
+            </svg>
           </a>
         </footer>
       </div>
